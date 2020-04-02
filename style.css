@@ -1,0 +1,360 @@
+
+@font-face {
+    font-family:police;
+    src:url("fonts/daubentonwebfont.ttf"); 
+}
+
+@font-face {
+    font-family:police1;
+    src:url("fonts/FengardoNeue_Regular.otf"); 
+}
+
+
+img { max-width: 100%; /* Pour toutes les images */
+height: auto;}
+
+
+p { font-family:police1;}/* Pour tous les p */
+
+
+
+a {font-size: 80%;
+  
+
+}/* Pour tous les liens */
+
+
+
+/* MENU */
+
+#menu { 
+   font-family: police;
+    background-attachment:fixed;
+      text-align: right;
+ 
+  list-style-type:none;
+      position: fixed;
+        margin-top: -18%;
+        margin-right: 10%;
+        margin-left:85%;
+
+}
+li    
+{ display: block;
+    
+     color: red;
+      font-family:police;  
+       text-decoration: none;
+    
+}
+
+
+
+#menu1 {color: red;}
+
+#menu2 {color: yellow;}
+
+#menu3 {color: dodgerblue;}
+
+
+/* Titre centré */
+h1 {   
+    margin-top: 20% ;
+    font-size:4vw;
+    font-family:police; 
+    width: ;
+    text-align:center; 
+    position:relative; 
+    
+} 
+
+#trait { height: 500px;
+         margin-top: 200px ;
+         margin-left:48% ;
+         margin-right:50%; }
+
+h2 {color: red;font-family:police;}
+
+h3 {font-family: police;}
+
+h4{font-family: police;}
+
+h5{font-family: police;}
+
+h6{font-family: police;}
+
+
+/* Div 1 p1 */
+#para01 { 
+
+font-family:police1;
+
+margin-top:200px ;
+display: block;
+      margin-left: auto;
+      margin-right: auto;
+ width: 50%;
+    
+ column-count: 2 ;
+ column-gap: 30px; 
+ ; 
+    
+ position: relative;
+    
+    
+  }
+
+
+/* p note01 */
+
+#note01 { 
+    
+    font-family: police1;
+    width:15% ;
+    text-align: left;
+ 
+    position: relative;
+    display: block;
+    
+    margin-top: -100px;
+    margin-right: 7%;
+    margin-left: auto;
+}
+
+
+/* Div 2 p2 */
+#para02 { 
+font-family:police1;
+    display: block;
+  
+    column-count: 2;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10% ; }
+
+#img1 { float: left;}
+
+
+#note02 {
+    font-family: police1;
+    width:16% ;
+    text-align: left;
+ 
+    position: relative;
+    display: block;
+    
+    margin-top: -270px;
+    margin-right: 2%;
+    margin-left: auto;
+    
+}
+
+
+/* Div 3 p3 */
+#para03 {
+    font-family:police1;
+    
+    position:relative;
+    display:block;
+    width: 50%;
+    margin:auto;
+    column-count: 2;
+    column-gap: 30px;
+    padding: 8%;
+}
+
+.p1 { float: left;
+      height: 500px;}
+
+/* Div 4 p4 */
+#para04 {
+    font-family:police1;
+    
+    position:relative;
+   display:block;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 12%;
+    column-count: 2;
+    column-gap: 30px;
+    
+    
+}
+
+#source3 { 
+    display: block; 
+    text-align: 
+}
+
+
+/* Div 5 p5 */
+
+#div05 {font-family:police1;
+    
+  
+    display:block;
+    width: 40%;
+    
+    margin: 0 auto;
+    margin-top: 15%;
+    
+    text-align: center;
+    column-count: 2;
+    column-gap: 30px;}
+
+#img6 {
+    
+    width: 100%;}
+
+h6 { text-align: center;
+     margin-top: 20%;    
+     font-size: 40px;
+     color: yellow;}
+
+/* Div 6 p6 */
+#div06 {font-family:police1; margin-top: 15%;
+        text-align: center;
+        display: block; 
+        height: 750px;}
+
+h7 {font-family: police;
+    color:dodgerblue;
+    text-align: center
+   ;font-size: 40px}
+    
+
+
+
+    /* format portable */ 
+@media screen and (max-width:600px) {
+    
+       h1 {   
+    margin-top: 50% ;
+
+    
+} 
+  
+       #trait { height: 400px;
+         margin-top: 260px ;
+        
+         }
+       
+       #menu { 
+    margin-top: -45%;
+    margin-left:75%; 
+      display: block;
+        z-index: 1;
+   background-color: white;
+   
+        
+ }
+
+       li
+{
+color: red;
+  font-family:police;  
+text-decoration: none; 
+    font-size: 70%;
+}
+    
+    
+       #para01 { 
+
+               font-family:police1;
+               margin-top:200px ;
+               display: block;
+               margin-left: 8%;
+               margin-right: auto;
+               width: 70%;
+               column-count: 1 ;
+               position: relative; }
+    
+    
+       #note01 { 
+    
+    
+    width:30% ;
+    text-align: left;
+ 
+    position: relative;
+    display: block;
+    
+    margin-top: 5%;
+    margin-right:;
+    margin-left:20% ;
+}
+    
+    
+       #para02 { 
+    font-family:police1;
+    display: block;
+    
+    column-count: 1;
+    width: 70%;
+    margin-left: 8%;
+       
+    margin-top: 10% ; 
+}
+    
+        #note02 {
+    font-family: police1;
+    width:60% ;
+    text-align: left;
+ 
+    position: relative;
+    display: block;
+    
+    margin-top:10%;
+  
+    margin-left: 20%;
+    
+}
+    
+    
+        #para03 {
+    font-family:police1;
+    
+    position:relative;
+    display:block;
+    width: 65%;
+    margin-left: 0%;
+    column-count: 1;
+    column-gap: 30px;
+    
+}
+
+
+        #para04 {
+    font-family:police1;
+    
+    position:relative;
+    display:block;
+    width: 65%;
+    margin-left:8%;
+    margin-top: 12%;
+    column-count: 1;
+   
+    
+    
+}
+
+
+    h6 {font-size: 180%;
+         text-align: left;}
+    
+    h7 {font-size: 180%;
+            margin-left: -65%}
+    
+    
+       #div05 {
+            
+    width: 85%;
+   column-gap: 0px;
+}
+    
+    
+       #div06 {  height: 750px;}
+    
+    
+☺☺}
+
